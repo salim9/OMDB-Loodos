@@ -3,29 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3956152126D7067E0019BD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956152026D7067E0019BD16 /* AppDelegate.swift */; };
 		3956152326D7067E0019BD16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956152226D7067E0019BD16 /* SceneDelegate.swift */; };
-		3956152526D7067E0019BD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956152426D7067E0019BD16 /* ViewController.swift */; };
+		3956152526D7067E0019BD16 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956152426D7067E0019BD16 /* MainVC.swift */; };
 		3956152826D7067E0019BD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956152626D7067E0019BD16 /* Main.storyboard */; };
 		3956152B26D7067E0019BD16 /* Loodos_OMDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3956152926D7067E0019BD16 /* Loodos_OMDB.xcdatamodeld */; };
 		3956152D26D706810019BD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956152C26D706810019BD16 /* Assets.xcassets */; };
 		3956153026D706810019BD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956152E26D706810019BD16 /* LaunchScreen.storyboard */; };
+		3985FE8926D8F25D002411A9 /* DetailVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3985FE8826D8F25D002411A9 /* DetailVC+Ext.swift */; };
+		3985FE8C26D91906002411A9 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 3985FE8B26D91906002411A9 /* Reachability */; };
+		3985FE8F26D91925002411A9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3985FE8E26D91925002411A9 /* Kingfisher */; };
+		3985FE9226D91999002411A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3985FE9126D91999002411A9 /* FirebaseAnalytics */; };
+		3985FE9426D91999002411A9 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 3985FE9326D91999002411A9 /* FirebaseRemoteConfig */; };
+		3985FE9726D91A01002411A9 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 3985FE9626D91A01002411A9 /* Moya */; };
+		3985FE9C26DA97AF002411A9 /* UIVC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3985FE9B26DA97AF002411A9 /* UIVC+Ext.swift */; };
+		39DFF10326D7C55400AD9366 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF10226D7C55400AD9366 /* SplashVC.swift */; };
+		39DFF10B26D7D9D900AD9366 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF10A26D7D9D900AD9366 /* API.swift */; };
+		39DFF10D26D7DA0D00AD9366 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF10C26D7DA0D00AD9366 /* NetworkManager.swift */; };
+		39DFF11026D7DCAB00AD9366 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF10F26D7DCAB00AD9366 /* Movie.swift */; };
+		39DFF11226D7E55A00AD9366 /* Movie-Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF11126D7E55A00AD9366 /* Movie-Detail.swift */; };
+		39DFF11626D824EC00AD9366 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF11426D824EC00AD9366 /* MovieCell.swift */; };
+		39DFF11726D824EC00AD9366 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DFF11526D824EC00AD9366 /* MovieCell.xib */; };
+		39DFF11C26D84D3500AD9366 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF11B26D84D3500AD9366 /* DetailVC.swift */; };
+		39E863C126D710800060792C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39E863C026D7107F0060792C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3956151D26D7067E0019BD16 /* Loodos-OMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loodos-OMDB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3956152026D7067E0019BD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3956152226D7067E0019BD16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3956152426D7067E0019BD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3956152426D7067E0019BD16 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3956152726D7067E0019BD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3956152A26D7067E0019BD16 /* Loodos_OMDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Loodos_OMDB.xcdatamodel; sourceTree = "<group>"; };
 		3956152C26D706810019BD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3956152F26D706810019BD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3956153126D706810019BD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3985FE8826D8F25D002411A9 /* DetailVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVC+Ext.swift"; sourceTree = "<group>"; };
+		3985FE9B26DA97AF002411A9 /* UIVC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVC+Ext.swift"; sourceTree = "<group>"; };
+		39DFF10226D7C55400AD9366 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		39DFF10A26D7D9D900AD9366 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		39DFF10C26D7DA0D00AD9366 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		39DFF10F26D7DCAB00AD9366 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		39DFF11126D7E55A00AD9366 /* Movie-Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie-Detail.swift"; sourceTree = "<group>"; };
+		39DFF11426D824EC00AD9366 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		39DFF11526D824EC00AD9366 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		39DFF11B26D84D3500AD9366 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		39E863C026D7107F0060792C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3985FE8F26D91925002411A9 /* Kingfisher in Frameworks */,
+				3985FE8C26D91906002411A9 /* Reachability in Frameworks */,
+				3985FE9226D91999002411A9 /* FirebaseAnalytics in Frameworks */,
+				3985FE9726D91A01002411A9 /* Moya in Frameworks */,
+				3985FE9426D91999002411A9 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +90,75 @@
 		3956151F26D7067E0019BD16 /* Loodos-OMDB */ = {
 			isa = PBXGroup;
 			children = (
+				3985FEA426DAAFBE002411A9 /* Storyboard */,
+				39DFF11326D824BA00AD9366 /* Cell */,
+				39DFF10E26D7DC9C00AD9366 /* Model */,
+				39DFF10426D7CA6B00AD9366 /* Extension */,
+				39DFF10126D7C53C00AD9366 /* VC */,
+				39E863C226D712510060792C /* Network */,
+				39E863C026D7107F0060792C /* GoogleService-Info.plist */,
 				3956152026D7067E0019BD16 /* AppDelegate.swift */,
 				3956152226D7067E0019BD16 /* SceneDelegate.swift */,
-				3956152426D7067E0019BD16 /* ViewController.swift */,
-				3956152626D7067E0019BD16 /* Main.storyboard */,
 				3956152C26D706810019BD16 /* Assets.xcassets */,
-				3956152E26D706810019BD16 /* LaunchScreen.storyboard */,
 				3956153126D706810019BD16 /* Info.plist */,
 				3956152926D7067E0019BD16 /* Loodos_OMDB.xcdatamodeld */,
 			);
 			path = "Loodos-OMDB";
+			sourceTree = "<group>";
+		};
+		3985FEA426DAAFBE002411A9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3956152626D7067E0019BD16 /* Main.storyboard */,
+				3956152E26D706810019BD16 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		39DFF10126D7C53C00AD9366 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3956152426D7067E0019BD16 /* MainVC.swift */,
+				39DFF10226D7C55400AD9366 /* SplashVC.swift */,
+				39DFF11B26D84D3500AD9366 /* DetailVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		39DFF10426D7CA6B00AD9366 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3985FE8826D8F25D002411A9 /* DetailVC+Ext.swift */,
+				3985FE9B26DA97AF002411A9 /* UIVC+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		39DFF10E26D7DC9C00AD9366 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39DFF10F26D7DCAB00AD9366 /* Movie.swift */,
+				39DFF11126D7E55A00AD9366 /* Movie-Detail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39DFF11326D824BA00AD9366 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				39DFF11426D824EC00AD9366 /* MovieCell.swift */,
+				39DFF11526D824EC00AD9366 /* MovieCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		39E863C226D712510060792C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				39DFF10A26D7D9D900AD9366 /* API.swift */,
+				39DFF10C26D7DA0D00AD9366 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +177,13 @@
 			dependencies = (
 			);
 			name = "Loodos-OMDB";
+			packageProductDependencies = (
+				3985FE8B26D91906002411A9 /* Reachability */,
+				3985FE8E26D91925002411A9 /* Kingfisher */,
+				3985FE9126D91999002411A9 /* FirebaseAnalytics */,
+				3985FE9326D91999002411A9 /* FirebaseRemoteConfig */,
+				3985FE9626D91A01002411A9 /* Moya */,
+			);
 			productName = "Loodos-OMDB";
 			productReference = 3956151D26D7067E0019BD16 /* Loodos-OMDB.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +211,12 @@
 				Base,
 			);
 			mainGroup = 3956151426D7067E0019BD16;
+			packageReferences = (
+				3985FE8A26D91906002411A9 /* XCRemoteSwiftPackageReference "Reachability" */,
+				3985FE8D26D91925002411A9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				3985FE9026D91999002411A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3985FE9526D91A01002411A9 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 3956151E26D7067E0019BD16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3956153026D706810019BD16 /* LaunchScreen.storyboard in Resources */,
+				39E863C126D710800060792C /* GoogleService-Info.plist in Resources */,
 				3956152D26D706810019BD16 /* Assets.xcassets in Resources */,
 				3956152826D7067E0019BD16 /* Main.storyboard in Resources */,
+				39DFF11726D824EC00AD9366 /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3956152526D7067E0019BD16 /* ViewController.swift in Sources */,
+				3985FE8926D8F25D002411A9 /* DetailVC+Ext.swift in Sources */,
+				3956152526D7067E0019BD16 /* MainVC.swift in Sources */,
+				39DFF10326D7C55400AD9366 /* SplashVC.swift in Sources */,
+				39DFF11C26D84D3500AD9366 /* DetailVC.swift in Sources */,
 				3956152B26D7067E0019BD16 /* Loodos_OMDB.xcdatamodeld in Sources */,
+				39DFF11226D7E55A00AD9366 /* Movie-Detail.swift in Sources */,
+				39DFF10D26D7DA0D00AD9366 /* NetworkManager.swift in Sources */,
 				3956152126D7067E0019BD16 /* AppDelegate.swift in Sources */,
+				39DFF10B26D7D9D900AD9366 /* API.swift in Sources */,
+				39DFF11026D7DCAB00AD9366 /* Movie.swift in Sources */,
+				39DFF11626D824EC00AD9366 /* MovieCell.swift in Sources */,
+				3985FE9C26DA97AF002411A9 /* UIVC+Ext.swift in Sources */,
 				3956152326D7067E0019BD16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salimuzun.Loodos-OMDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salimuzun.Loodos-OMDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -345,6 +460,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3985FE8A26D91906002411A9 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		3985FE8D26D91925002411A9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		3985FE9026D91999002411A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.0;
+			};
+		};
+		3985FE9526D91A01002411A9 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3985FE8B26D91906002411A9 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3985FE8A26D91906002411A9 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+		3985FE8E26D91925002411A9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3985FE8D26D91925002411A9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		3985FE9126D91999002411A9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3985FE9026D91999002411A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3985FE9326D91999002411A9 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3985FE9026D91999002411A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		3985FE9626D91A01002411A9 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3985FE9526D91A01002411A9 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3956152926D7067E0019BD16 /* Loodos_OMDB.xcdatamodeld */ = {
